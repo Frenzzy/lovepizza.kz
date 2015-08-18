@@ -65,9 +65,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactLibExecutionEnvironment = __webpack_require__(10);
+  var _reactLibExecutionEnvironment = __webpack_require__(7);
 
-  var _Layout = __webpack_require__(9);
+  var _Layout = __webpack_require__(6);
 
   var _Layout2 = _interopRequireDefault(_Layout);
 
@@ -78,14 +78,8 @@ module.exports =
       return __webpack_require__(3);
     }, '/about': function about() {
       return __webpack_require__(4);
-    }, '/blog': function blog() {
-      return __webpack_require__(5);
-    }, '/blog/test-article-one': function blogTestArticleOne() {
-      return __webpack_require__(6);
-    }, '/blog/test-article-two': function blogTestArticleTwo() {
-      return __webpack_require__(7);
     }, '/': function _() {
-      return __webpack_require__(8);
+      return __webpack_require__(5);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -360,180 +354,6 @@ module.exports =
           _react2['default'].createElement(
             'h1',
             null,
-            'Blog'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'Coming soon.'
-          )
-        );
-      }
-    }]);
-
-    return _default;
-  })();
-
-  exports['default'] = _default;
-  ;
-  module.exports = exports['default'];
-
-/***/ },
-/* 6 */
-/***/ function(module, exports, __webpack_require__) {
-
-  /**
-   * React Static Boilerplate
-   * https://github.com/koistya/react-static-boilerplate
-   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-   */
-
-  'use strict';
-
-  Object.defineProperty(exports, '__esModule', {
-    value: true
-  });
-
-  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-  var _react = __webpack_require__(1);
-
-  var _react2 = _interopRequireDefault(_react);
-
-  var _default = (function () {
-    function _default() {
-      _classCallCheck(this, _default);
-    }
-
-    _createClass(_default, [{
-      key: 'render',
-      value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          null,
-          _react2['default'].createElement(
-            'h1',
-            null,
-            'Test Article 1'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'Coming soon.'
-          )
-        );
-      }
-    }]);
-
-    return _default;
-  })();
-
-  exports['default'] = _default;
-  ;
-  module.exports = exports['default'];
-
-/***/ },
-/* 7 */
-/***/ function(module, exports, __webpack_require__) {
-
-  /**
-   * React Static Boilerplate
-   * https://github.com/koistya/react-static-boilerplate
-   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-   */
-
-  'use strict';
-
-  Object.defineProperty(exports, '__esModule', {
-    value: true
-  });
-
-  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-  var _react = __webpack_require__(1);
-
-  var _react2 = _interopRequireDefault(_react);
-
-  var _default = (function () {
-    function _default() {
-      _classCallCheck(this, _default);
-    }
-
-    _createClass(_default, [{
-      key: 'render',
-      value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          null,
-          _react2['default'].createElement(
-            'h1',
-            null,
-            'Test Article 2'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'Coming soon.'
-          )
-        );
-      }
-    }]);
-
-    return _default;
-  })();
-
-  exports['default'] = _default;
-  ;
-  module.exports = exports['default'];
-
-/***/ },
-/* 8 */
-/***/ function(module, exports, __webpack_require__) {
-
-  /**
-   * React Static Boilerplate
-   * https://github.com/koistya/react-static-boilerplate
-   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-   */
-
-  'use strict';
-
-  Object.defineProperty(exports, '__esModule', {
-    value: true
-  });
-
-  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-
-  var _react = __webpack_require__(1);
-
-  var _react2 = _interopRequireDefault(_react);
-
-  var _default = (function () {
-    function _default() {
-      _classCallCheck(this, _default);
-    }
-
-    _createClass(_default, [{
-      key: 'render',
-      value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          null,
-          _react2['default'].createElement(
-            'h1',
-            null,
             'Home Page'
           ),
           _react2['default'].createElement(
@@ -553,7 +373,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 9 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -607,7 +427,7 @@ module.exports =
   module.exports = exports["default"];
 
 /***/ },
-/* 10 */
+/* 7 */
 /***/ function(module, exports) {
 
   module.exports = require("react/lib/ExecutionEnvironment");

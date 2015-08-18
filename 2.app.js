@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 268:
+/***/ 265:
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -21,7 +21,7 @@ webpackJsonp([2],{
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-  var _react = __webpack_require__(29);
+  var _react = __webpack_require__(44);
 
   var _react2 = _interopRequireDefault(_react);
 
@@ -39,7 +39,7 @@ webpackJsonp([2],{
           _react2['default'].createElement(
             'h1',
             null,
-            'Test Article 2'
+            'About Us'
           ),
           _react2['default'].createElement(
             'p',
