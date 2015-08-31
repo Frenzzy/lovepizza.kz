@@ -1,2 +1,6 @@
 User-agent: *
 Disallow:
+
+Sitemap: http://lovepizza.kz/sitemap.xml
+
+Host: lovepizza.kz
